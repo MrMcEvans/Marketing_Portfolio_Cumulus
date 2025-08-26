@@ -1,0 +1,100 @@
+---
+import { Image } from "astro:assets";
+import Container from "../shared/Container.astro";
+import Title from "../shared/Title.astro";
+
+import baptist from "../../assets/logos/Baptist.svg";
+import cfa from "../../assets/logos/Chick-fil-A_Logo.svg";
+import canal from "../../assets/logos/CanalBarge.svg";
+import ellis from "../../assets/logos/Ellis.svg";
+import howell from "../../assets/logos/Howell.svg";
+import longhorn from "../../assets/logos/Longhorn.svg";
+import raos from "../../assets/logos/Raos.svg";
+import sabine from "../../assets/logos/Sabine.svg";
+import seamless from "../../assets/logos/Seamless.png";
+import ferguson from "../../assets/logos/Ferguson.svg";
+
+import GradiantText from "../shared/GradiantText.astro";
+
+const brands = [
+  {
+    id: 1,
+    name: "Baptist Hospital",
+    logo: baptist,
+  },
+  {
+    id: 2,
+    name: "Chick-fil-A",
+    logo: cfa,
+  },
+  {
+    id: 3,
+    name: "Canal Barge",
+    logo: canal,
+  },
+  {
+    id: 4,
+    name: "Ellis Home and Garden",
+    logo: ellis,
+  },
+  {
+    id: 5,
+    name: "Howell Furniture",
+    logo: howell,
+  },
+  {
+    id: 6,
+    name: "Longhorn Liquor",
+    logo: longhorn,
+  },
+  {
+    id: 7,
+    name: "Rao's Bakery",
+    logo: raos,
+  },
+  {
+    id: 8,
+    name: "Sabine Federal Credit Union",
+    logo: sabine,
+  },
+  {
+    id: 9,
+    name: "Seamless Medical Centers",
+    logo: seamless,
+  },
+  {
+    id: 10,
+    name: "Ferguson Law Firm",
+    logo: ferguson,
+  },
+];
+
+export interface Props {
+  className?: string;
+}
+
+const { className } = Astro.props;
+---
+
+<section class=`${className}`>
+  <Container className="space-y-8">
+    <div class="text-center max-w-3xl mx-auto">
+      <Title>Trusted by <GradiantText>Local</GradiantText> Businesses in SETX.</Title>
+    </div>
+    <div class="flex justify-center flex-wrap gap-4">
+      {
+        brands.map((brand) => (
+          <div class="p-4 sm:p-5 rounded-xl border border-box-border group bg-box-bg">
+            <Image
+              src={brand.logo}
+              width="100"
+              height="60"
+              alt={brand.name}
+              class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105"
+            />
+          </div>
+        ))
+      }
+    </div>
+  </Container>
+</section>
