@@ -94,58 +94,54 @@ const solutions = [
 
 const faqs = [
   {
-    question: "How can social media marketing benefit my business?",
+    question: "How can digital and radio marketing benefit my business?",
     answer:
-      "Social media marketing can significantly benefit your business by increasing brand awareness, engaging your target audience, driving website traffic, and generating leads. It also allows for direct interaction with your customers, fostering brand loyalty and providing valuable insights into consumer behavior.",
+      "Digital and radio marketing work hand-in-hand to grow your business by building brand awareness, driving new customers, and staying top of mind in your community. Digital campaigns provide precise targeting and measurable results, while radio offers unmatched reach and credibility with local audiences.",
   },
   {
     question: "What sets your agency apart from others?",
     answer:
-      "Our agency stands out through a combination of tailored strategies, data-driven decision-making, and a commitment to client collaboration. We prioritize understanding your unique business goals and offer personalized solutions that deliver measurable results.",
+      "Our agency stands out because we blend traditional radio reach with cutting-edge digital strategies. We don’t believe in cookie-cutter plans — instead, we tailor campaigns to your business goals, whether that means driving foot traffic, generating leads, or building long-term brand loyalty.",
   },
   {
-    question: "How do you measure the success of social media campaigns?",
+    question: "How do you measure the success of marketing campaigns?",
     answer:
-      "We employ a comprehensive approach to measure campaign success. This includes tracking key performance indicators (KPIs) such as engagement metrics, conversion rates, reach, and customer feedback. Our goal is to provide you with transparent and actionable insights into the effectiveness of your social media efforts.",
+      "We use a combination of analytics and on-air tracking to measure success. This includes digital KPIs such as impressions, clicks, conversions, and geofencing reports, alongside radio metrics like reach, frequency, and brand recall. Together, these tools give you clear, transparent insights into your return on investment.",
   },
   {
-    question:
-      "Can you give examples of your successful social media campaigns?",
+    question: "Can I run one without the other?",
     answer:
-      "Certainly! We have a portfolio of successful campaigns across various industries. Check out our Case Studies to see how we've helped businesses like yours achieve their social media goals.",
+      "Yes — you can absolutely choose to run just radio or just digital, depending on your budget and goals. Many of our partners start with one channel and expand over time. That said, we’ve found that using both together creates the most impact: radio builds broad awareness and credibility, while digital ads provide precise targeting and measurable engagement. We’ll work with you to find the right mix for your business, whether that’s starting with one platform or combining both for maximum reach.",
   },
   {
-    question: "Do you offer customized social media strategies?",
+    question: "Do you offer customized marketing strategies?",
     answer:
-      "Absolutely. Our team specializes in creating customized strategies tailored to your brand, industry, and target audience. We believe in the power of uniqueness, and our strategies reflect your specific goals and aspirations.",
+      "Absolutely. Every business is unique, so we design strategies specifically for your industry, goals, and audience. Whether you need a strong radio presence, a digital push, or a blend of both, we’ll create a plan that maximizes your results.",
   },
   {
-    question: "How do you handle negative comments or reviews on social media?",
+    question: "How do you handle negative reviews or online feedback?",
     answer:
-      "We have a proactive approach to managing online reputation. Our social listening tools help us monitor brand mentions in real-time. In case of negative comments, we respond promptly with empathy and seek resolutions. We believe in turning challenges into opportunities for improvement.",
+      "We believe in turning challenges into opportunities. With digital reputation management, we monitor online mentions and reviews in real-time. If negative feedback appears, we respond quickly, professionally, and with solutions that strengthen your brand’s credibility.",
   },
   {
-    question: "What social media platforms do you work with?",
+    question: "What platforms and channels do you work with?",
     answer:
-      "We work with a wide range of social media platforms, including but not limited to Facebook, Instagram, Twitter, LinkedIn, Pinterest, and TikTok. Our strategies are adaptable to the platforms most relevant to your target audience.",
+      "We cover a wide range of channels including local FM/AM radio, streaming audio, display ads, search engine marketing, social platforms, OTT/CTV, and geofencing. Our goal is to connect with your customers wherever they are — on the road, at home, or online.",
   },
   {
-    question:
-      "How often will I receive reports on the performance of my social media campaigns?",
+    question: "How often will I receive performance reports?",
     answer:
-      "We provide regular and detailed reports on the performance of your social media campaigns. The frequency of reporting can be customized based on your preferences, with options for weekly, bi-weekly, or monthly updates.",
+      "You’ll receive clear, detailed reports on a regular basis — monthly, depending on your preference. These reports show both digital analytics and radio campaign tracking so you always know how your investment is working.",
   },
   {
-    question:
-      "Is there ongoing support if I have questions or need adjustments to my strategy?",
+    question: "Is there ongoing support if I need changes or have questions?",
     answer:
-      "Absolutely. We offer ongoing support to address any questions or concerns you may have. Our team is readily available to assist you and can make adjustments to your strategy as needed to ensure it aligns with your evolving business goals.",
+      "Yes. Our team is always available to answer questions, adjust your strategy, or add new campaign elements. Marketing needs evolve, and we’re committed to evolving with you.",
   },
   {
-    question:
-      "Can I see a demo or get a consultation before deciding to work with your agency?",
+    question: "Can I get a consultation before deciding to work with you?",
     answer:
-      "Certainly! We offer free consultations and personalized demos to showcase our approach, discuss your needs, and determine how we can best support your business. Contact us to schedule a consultation.",
+      "Of course. We offer free consultations where we’ll discuss your goals, review potential strategies, and show you how digital and radio can work together to grow your business. This way, you’ll see exactly how we can deliver results before making a commitment.",
   },
 ];
 
